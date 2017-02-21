@@ -130,4 +130,28 @@ a.button:hover {
 	letter-spacing: 0.1px;
 	font-size: 14px;
 }
+@media(max-width: 660px){
+	.search-box input{
+		width: 80%
+	}
+}
+@media(max-width: 507px){
+	.bottom-site-links ul {
+		width: 100%
+		text-align:center;
+		margin: 0;
+		padding:0;
+		display: block;
+	}
+}
+@media(max-width: 365px){
+	.top-navigation li{
+		width: 100%;
+		margin: 0;
+		padding:0 60px;
+		text-align: center;
+		display: block;
 
+	}
+
+}
